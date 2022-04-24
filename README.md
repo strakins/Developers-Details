@@ -24,6 +24,6 @@ API was pulled from [here](https://jsonplaceholder.typicode.com/users)
 
 ### `Future Updates`
 
-- I will like to dispaly the borders of each country by name
+- I will like to dispaly individual dev details on a seperate page with the use of props.
 
-- Borders can currently be dispalyed but not as I desired so I commented out the code.
+
