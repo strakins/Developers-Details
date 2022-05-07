@@ -1,29 +1,18 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Home from "./pages/Home";
 
-const devUrl = "https://jsonplaceholder.typicode.com/users";
 
-const DevList = () => {
-  const [devDetails, setDevDetails] = useState([]);
-
-  const getDevDetails = async () => {
-    const response = await fetch(devUrl);
-    const devDetails = await response.json();
-    setDevDetails(devDetails);
-    console.log(devDetails);
-  };
-
-  useEffect(() => {
-    getDevDetails();
-  }, []);
+const DevList = ({devDetails}) => {
+  
 
 
   return (
     <>
-      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      < Home/>
+      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
         {devDetails.map(({ email, name, company, address, phone, website, id }) => {
           return (
-            <Link to={`/${email}`} key={id} className='bg-gray-400 text-white h-auto py-2 pl-6 text-center text'>
+            <Link to={`/${name}`}  key={id} className='bg-gray-400 text-white h-auto py-2 pl-6 text-center text'>
               <h3 className="text-4xl"> {name} </h3>
               <h5 className="text-xl pt-4 tracking-wide">{company.catchPhrase}</h5>
               {" "}

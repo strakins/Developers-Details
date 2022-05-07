@@ -1,6 +1,7 @@
-# Countries API Project
+# Developers Details API Project
 
-![Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
+![1st Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
+![Additional Improvement Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
 
 [Live Link Here](https://strakins.github.io/Developers-Details)
 
