@@ -1,4 +1,4 @@
-# Countries API Project
+# Developers Details API Project
 
 ![Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
 
