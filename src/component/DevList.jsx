@@ -9,6 +9,7 @@ const DevList = ({devDetails}) => {
   return (
     <>
       < Home/>
+      <h2 className="text-gray-200 text-center text-2xl lg:text-5xl py-3">Explore Our Experts</h2>
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
         {devDetails.map(({ email, name, company, address, phone, website, id }) => {
           return (

@@ -6,6 +6,9 @@ import DevList from './component/DevList';
 import Navbar from './component/Navbar';
 import DropDown from './component/DropDown';
 import AboutUs from './component/pages/AboutUs';
+import NotFound from './component/pages/NotFound'
+import Portfolio from './component/pages/Portfolio';
+import Footer from './component/Footer';
 
 
 const devUrl = "https://jsonplaceholder.typicode.com/users";
@@ -54,9 +57,11 @@ function App() {
               <Route path='/Developers-Details' exact element={< DevList devDetails={devDetails} /> }/>
               <Route path='/:name' element={< DevDetails devDetails={devDetails} />} />
               <Route path='/about' element={< AboutUs />} />
-              <Route path='*' element={< DevDetails devDetails={devDetails} />} />
+              <Route path='/portfolio' element={< Portfolio />} />
+              <Route path='/*' element={< NotFound />} />
             </Routes> 
       </div>
+      < Footer />
     </>
 
   );

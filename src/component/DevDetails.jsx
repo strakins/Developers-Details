@@ -18,14 +18,14 @@ const DevDetails = ({ devDetails }) => {
             .filter((select) => select.name === name)
             .map((select, index) => {
               return <div key={index}>
-                  <h3 className='text-5xl text-center mb-2'> {name} </h3>
-                  <p className='text-2xl tracking-wider pt-3 text-center mb-2'> {select.company.catchPhrase} </p>
+                  <h3 className='text-3xl font-bold lg:text-5xl text-center mb-2'> {name} </h3>
+                  <p className='text-sm lg:text-2xl tracking-wider pt-3 text-center mb-2'> {select.company.catchPhrase} </p>
                   <div className="pt-8 pb-4">
                     <h2 className='text-2xl mb-3 font-bold'>Personal Information</h2>
-                    <p className='text-xl tracking-wider'>{select.email}</p>               
-                    <p className='text-xl tracking-wider'>{select.website}</p>               
-                    <p className='text-xl tracking-wider'>{select.phone}</p>               
-                    <p className='text-xl tracking-wider'>{select.address.street}, {select.address.suite}, {select.address.city}</p>               
+                    <p className='lg:text-xl tracking-wider pb-2'><span className="font-semibold">Email: </span> {select.email}</p>               
+                    <p className='lg:text-xl tracking-wider pb-2'><span className="font-semibold">Website: </span>{select.website}</p>               
+                    <p className='lg:text-xl tracking-wider pb-2'><span className="font-semibold">Phone:</span>{select.phone}</p>               
+                    <p className='lg:text-xl tracking-wider pb-2'><span className="font-semibold">Address:</span> {select.address.street}, {select.address.suite}, {select.address.city}</p>               
                   </div>
               </div>         
             })}
