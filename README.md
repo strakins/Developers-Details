@@ -1,7 +1,7 @@
 # Developers Details API Project
 
 ![1st Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
-![Additional Improvement Preview Here](https://github.com/strakins/kodecamp/blob/main/Dev%20Details%20Profile.jpg)
+![Additional Improvement Preview Here](https://github.com/strakins/kodecamp/blob/main/devdetails.jpg)
 
 [Live Link Here](https://strakins.github.io/Developers-Details)
 
@@ -14,6 +14,7 @@ API was pulled from [here](https://jsonplaceholder.typicode.com/users)
  - React App
  - Tailwind Css
  - React Router Dom
+ - React Typical
 
 ### `Running Locally`
 
@@ -24,7 +25,7 @@ API was pulled from [here](https://jsonplaceholder.typicode.com/users)
 - Run `npm start` to run on  your local machine
 
 ### `Future Updates`
-
+- Update Implemented
 - I will like to dispaly individual dev details on a seperate page with the use of props.
 
 
