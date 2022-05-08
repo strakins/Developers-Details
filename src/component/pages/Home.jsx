@@ -50,7 +50,7 @@ const Home = () => {
           <img
             src={Phones}
             alt="Mobile Friendly Design"
-            className=" lg:h-80  lg:w-auto"
+            className=" lg:h-80  lg:w-full"
           />
           <h5 className="text-center pt-3 uppercase font-semibold">UI/UX Designs</h5>
         </div>
@@ -58,7 +58,7 @@ const Home = () => {
           <img
             src={Wordpress}
             alt="Mobile Friendly Design"
-            className="lg:h-80  lg:w-auto"
+            className="lg:h-80  lg:w-full"
           />
           <h5 className="text-center pt-3 uppercase font-semibold">Wordpress Website Development</h5>
         </div>
