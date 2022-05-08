@@ -9,6 +9,7 @@ import AboutUs from './component/pages/AboutUs';
 import NotFound from './component/pages/NotFound'
 import Portfolio from './component/pages/Portfolio';
 import Footer from './component/Footer';
+import ContactUs from './component/pages/ContactUs';
 
 
 const devUrl = "https://jsonplaceholder.typicode.com/users";
@@ -52,11 +53,12 @@ function App() {
     <>
       < Navbar toggle={toggle} />
       < DropDown isOpen={isOpen} toggle={toggle}/>
-      <div className="bg-slate-900">
+      <div className="bg-slate-900 h-fit">
             <Routes>
               <Route path='/Developers-Details' exact element={< DevList devDetails={devDetails} /> }/>
               <Route path='/:name' element={< DevDetails devDetails={devDetails} />} />
               <Route path='/about' element={< AboutUs />} />
+              <Route path='/contact' element={< ContactUs />} />
               <Route path='/portfolio' element={< Portfolio />} />
               <Route path='/*' element={< NotFound />} />
             </Routes> 

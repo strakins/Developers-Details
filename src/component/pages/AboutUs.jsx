@@ -13,7 +13,7 @@ const AboutUs = () => {
          alt="" />
          <div className="p-24">
            <h3 className="text-slate-100 text-2xl lg:text-6xl font-bold mb-8">About Me</h3>
-           <Link to="" className="border-2  py-3 px-8 rounded-lg bg-purple-500 cursor-pointer text-white">Portfolio</Link>
+           <Link to="/portfolio" className="border-2  py-3 px-8 rounded-lg bg-purple-500 text-white">Portfolio</Link>
          </div>
       </div>
       <div className="lg:flex mb-4">

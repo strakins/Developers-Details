@@ -15,6 +15,7 @@ const Navbar = ({toggle}) => {
            <div class="hidden md:block text-white pr-12">
                 <Link to="/Developers-Details" className='font-bold text-xl mx-5' >Home</Link>
                 <Link to="/about" className='text-xl mx-5' >About Us</Link>
+                <Link to="/contact" className='text-xl mx-5' >Contact</Link>
                 <Link to="/portfolio" className=' text-xl mx-5' >Portfolio</Link>
             </div>
   </nav>
