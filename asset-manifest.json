@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Developers-Details/static/css/main.820521ac.css",
-    "main.js": "/Developers-Details/static/js/main.5935bd49.js",
+    "main.css": "/Developers-Details/static/css/main.2e885bba.css",
+    "main.js": "/Developers-Details/static/js/main.2008553f.js",
     "static/media/browzer.jpg": "/Developers-Details/static/media/browzer.2272c4a64c8cca431c83.jpg",
     "static/media/phones.jpg": "/Developers-Details/static/media/phones.70883984b19917c12452.jpg",
     "static/media/MY_PICS.jpg": "/Developers-Details/static/media/MY_PICS.76eeb617a97ec81d2f94.jpg",
     "static/media/wordpress.png": "/Developers-Details/static/media/wordpress.349b69dc09b36e824119.png",
     "index.html": "/Developers-Details/index.html",
-    "main.820521ac.css.map": "/Developers-Details/static/css/main.820521ac.css.map",
-    "main.5935bd49.js.map": "/Developers-Details/static/js/main.5935bd49.js.map"
+    "main.2e885bba.css.map": "/Developers-Details/static/css/main.2e885bba.css.map",
+    "main.2008553f.js.map": "/Developers-Details/static/js/main.2008553f.js.map"
   },
   "entrypoints": [
-    "static/css/main.820521ac.css",
-    "static/js/main.5935bd49.js"
+    "static/css/main.2e885bba.css",
+    "static/js/main.2008553f.js"
   ]
 }
