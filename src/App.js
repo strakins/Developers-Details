@@ -1,15 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from "react";
 import './App.css';
-import DevDetails from './component/DevDetails';
-import DevList from './component/DevList';
+import DevDetails from './pages/DevDetails';
+import DevList from './pages/DevList';
 import Navbar from './component/Navbar';
 import DropDown from './component/DropDown';
-import AboutUs from './component/pages/AboutUs';
-import NotFound from './component/pages/NotFound'
-import Portfolio from './component/pages/Portfolio';
+import AboutUs from './pages/AboutUs';
+import NotFound from './pages/NotFound'
+import Portfolio from './pages/Portfolio';
 import Footer from './component/Footer';
-import ContactUs from './component/pages/ContactUs';
+import ContactUs from './pages/ContactUs';
 
 
 const devUrl = "https://jsonplaceholder.typicode.com/users";

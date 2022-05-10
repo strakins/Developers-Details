@@ -1,5 +1,5 @@
 import React from 'react'
-import Chats from  '../component/assets/whatsapp2.png'
+import Chats from  '../assets/whatsapp2.png'
 
 const Footer = () => {
   return (

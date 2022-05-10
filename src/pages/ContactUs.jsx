@@ -39,7 +39,7 @@ const ContactUs = () => {
                 className="h-80 w-full rounded-sm object-cover absolute mix-blend-overlay"
                 alt="" />
                 <div className="p-24">
-                <h3 className="text-blue-900 text-xl lg:text-4xl font-bold mb-8">Send Us A Request Today</h3>
+                <h3 className="text-black text-xl lg:text-4xl font-bold mb-8">Send Us A Request Today</h3>
                 </div>
                 </div>
             </div>

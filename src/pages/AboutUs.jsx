@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Typical from 'react-typical';
 import MY_PICS from '../assets/MY_PICS.jpg';
-import HireMe from "../HireMe";
+import HireMe from "../component/HireMe";
 
 const AboutUs = () => {
   return (
